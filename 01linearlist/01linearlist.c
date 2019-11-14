@@ -1,12 +1,5 @@
 #include"linearlist.h"
 
-int main()
-{
-	SeqList L; SeqList L1;
-	unionList(&L,L1);
-	return 0;
-}
-
 void unionList(SeqList* La, SeqList Lb)		
 {
 	ElemType e;
@@ -21,19 +14,19 @@ void unionList(SeqList* La, SeqList Lb)
 	}
 }
 
-int ListLength(SeqList** La)
+int ListLength(SeqList La)
 {
-	return (*La)->last;
+	return La.last;
 }
 
 int LocateElem(SeqList L, ElemType e)//按内容查找
 {
 	int i = 0;
-	while ((i<L.last)&&L.elem[i]!=e)
+	while ((i <= L.last)&&L.elem[i]!=e)
 	{
 		i++;
 	}
-	if (i<=L.last)
+	if (i <= L.last)
 	{
 		return (i + 1);
 	}
@@ -57,13 +50,12 @@ int GetElem(SeqList L, int i, ElemType* e)			//按序号查找
 int ListInsert(SeqList* L, int i, ElemType e)		//插入运算
 {
 	int k;
-
 	if (L->last == MAXSIZE)
 	{
 		printf("表已满！");
 		return 0;
 	}
-	if (i<1 || i>L->last + 2)
+	if (i<1 || i>L->last+2)
 	{
 		printf("插入位置不合法");
 		return 0;

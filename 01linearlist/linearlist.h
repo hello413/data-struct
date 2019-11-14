@@ -7,17 +7,17 @@
 
 #define OK  1
 #define ERROR 0
-#define MAXSIZE 20
-typedef int ElemType;
+#define MAXSIZE 20		//线性表的最大长度
+typedef char ElemType;
 typedef struct
 {
-	ElemType elem[MAXSIZE];
-	int last;
+	ElemType elem[MAXSIZE];		//线性表占用的数组空间
+	int last;		//记录最后一个元素在数组elem中的位置
 } SeqList;
 
 
 int LocateElem(SeqList L, ElemType e);
-void unionL(SeqList* La, SeqList Lb);
+void unionList(SeqList* La, SeqList Lb);
 int GetElem(SeqList L, int i, ElemType* e);
 int DelList(SeqList* L, int i, ElemType* e);
 int ListInsert(SeqList* L, int i, ElemType e);
