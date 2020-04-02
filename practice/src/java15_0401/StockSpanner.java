@@ -1,3 +1,5 @@
+package java15_0401;
+
 import java.util.Stack;
 
 class StockSpanner {
