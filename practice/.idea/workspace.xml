@@ -50,7 +50,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Heap">
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0406.Heap" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0406.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0402.Joseph" />
       <module name="practice" />
@@ -70,19 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java_0405.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0401.Solution02" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_0401.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Heap" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.TestTree" />
         <item itemvalue="Application.Joseph" />
         <item itemvalue="Application.Solution03" />
-        <item itemvalue="Application.Solution02" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1585995566957" duration="7904000" />
       <workItem from="1586069695487" duration="9172000" />
       <workItem from="1586096932019" duration="907000" />
-      <workItem from="1586135455835" duration="724000" />
+      <workItem from="1586135455835" duration="2363000" />
     </task>
     <servers />
   </component>
@@ -162,38 +162,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586097842224">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1586136539678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586097842224" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586097842224">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586136539678" />
+    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1586136539678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586097842224" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586097842224">
+    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586136539678" />
+    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1586136539677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586097842224" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586097842224">
+    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586136539677" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1586136539678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586097842224" />
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1586097842218">
+    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586136539678" />
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1586136540142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586097842218" />
-    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1586097842217">
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586136540142" />
+    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1586136540142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586097842217" />
-    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1586097842217">
+    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586136540142" />
+    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1586136540142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586097842217" />
-    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1586097842217">
+    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586136540142" />
+    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1586136540142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586097842217" />
+    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586136540142" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1586135749024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,6 +238,11 @@
           <url>file://$PROJECT_DIR$/src/java_0405/Solution.java</url>
           <line>88</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0406/Heap.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

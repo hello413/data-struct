@@ -35,6 +35,7 @@ public class Heap {
     }
 
     public static void createHeap(int[] array, int size) {
+        //O(N)  查询循环几次   size-1:最后一个叶子节点的下标    (*size-1)/2:最后一个叶子节点的父节点的下标
         for (int i = (size - 1 - 1) / 2; i >= 0; i--) {
             shiftDown(array, size, i);
         }
