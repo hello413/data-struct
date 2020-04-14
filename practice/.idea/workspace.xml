@@ -42,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java_0406" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,13 +51,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Solution02">
-    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0406.Heap" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0413.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0406.*" />
+          <option name="PATTERN" value="java_0413.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution02" />
         <item itemvalue="Application.Solution01" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.Heap" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +167,7 @@
       <workItem from="1586479505090" duration="17528000" />
       <workItem from="1586568398576" duration="1229000" />
       <workItem from="1586682682595" duration="776000" />
+      <workItem from="1586751901677" duration="11382000" />
     </task>
     <servers />
   </component>
@@ -168,46 +175,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1586515049171">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1586769001843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586515049171" />
-    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1586515049171">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586769001843" />
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1586756856779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586515049171" />
-    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1586515049171">
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586756856779" />
+    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1586756856778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586515049171" />
-    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1586515049171">
+    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586756856778" />
+    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1586756856778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586515049171" />
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1586436768327">
+    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586756856778" />
+    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1586756856778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586436768327" />
-    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1586436768326">
+    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586756856778" />
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1586755622440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586436768326" />
-    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1586436768326">
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586755622440" />
+    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1586755622440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586436768326" />
-    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1586436768327">
+    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586755622440" />
+    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1586755622440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586436768327" />
+    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586755622440" />
+    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1586755622440">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586755622440" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1586135749024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586135749024" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586682682744">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586751915593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586682682744" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586751915593" />
     <state x="178" y="29" key="new project wizard" timestamp="1585709835574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,6 +265,11 @@
           <url>file://$PROJECT_DIR$/src/java_0409/Solution.java</url>
           <line>4</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java_0413/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
