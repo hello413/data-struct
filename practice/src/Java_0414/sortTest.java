@@ -132,6 +132,9 @@ public class sortTest {
         while (!stack.isEmpty()){
             int left = stack.pop();
             int right = stack.pop();
+            if (left>=right){
+                continue;
+            }
             int mid = parheap(arr,left,right);
             stack.push(mid-1);
             stack.push(left);
@@ -160,6 +163,58 @@ public class sortTest {
         return i;
     }
 
+    private void addarray(int[] arr, int left, int mid, int right){
+        if (left>=right){
+            return;
+        }
+        int i = left, j=mid, k=0;
+        int length = right-left;
+        int[] extra = new  int[length];
+        while (i < mid && j < right){
+            extra[k++] = (arr[i]<=arr[j])?arr[i++]:arr[j++];
+        }
+        while (i<mid){
+            extra[k++] = arr[i++];
+        }
+        while (j<right){
+            extra[k++] = arr[j++];
+        }
+        for (int t=0;t<extra.length;t++){
+            arr[t+left] = extra[t];
+        }
+    }
+
+    private void mergesort(int[] arr){
+        mergesortheap(arr,0,arr.length);
+    }
+
+    private void mergesortheap(int[] arr, int left, int right) {
+        if (right-left<=1){
+            return;
+        }
+        int mid = (left+right)/2;
+        mergesortheap(arr,left,mid);
+        mergesortheap(arr,mid,right);
+        addarray(arr,left,mid,right);
+    }
+
+    private void mergeedsort(int[] arr){
+        for (int i = 1;i<arr.length;i*=2){
+            for (int j = 0;j<arr.length;j=j+2*i){
+                int left = j;
+                int mid =left+i;
+                if (mid>=arr.length){
+                    continue;
+                }
+                int right = mid+i;
+                if (right>arr.length){
+                    right = arr.length;
+                }
+                addarray(arr,left,mid,right);
+            }
+        }
+    }
+
     public void exange(int[] arr,int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
@@ -169,7 +224,7 @@ public class sortTest {
     public static void main(String[] args) {
         sortTest test = new sortTest();
         int[] arr = {1,5,6,2,6,4,1,7};
-        test.quickheap(arr);
+        test.mergeedsort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
