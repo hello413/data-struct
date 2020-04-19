@@ -79,20 +79,6 @@ public class sortTest {
         }
     }
 
-    private void bubble(int[] arr){
-        for (int i = 0;i<arr.length-1;i++){
-            boolean issort = true;
-            for (int j =i;j<arr.length-1;j++){
-                if (arr[j]<arr[j+1]){
-                    exange(arr,j,j+1);
-                    issort = false;
-                }
-            }
-            if (issort){
-                break;
-            }
-        }
-    }
     private void bubblesort(int[] arr){
         for (int i = 0; i < arr.length; i++){
             boolean issorted = true;
@@ -232,7 +218,7 @@ public class sortTest {
     public static void main(String[] args) {
         sortTest test = new sortTest();
         int[] arr = {1,5,6,2,6,4,1,7};
-        test.bubble(arr);
+        test.heapsort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
