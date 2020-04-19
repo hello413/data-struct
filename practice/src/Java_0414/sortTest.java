@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class sortTest {
-    public void insertsort(int[] arr){
+    private void insertsort(int[] arr){
         if (arr.length==0||arr.length==1){
             return;
         }
@@ -12,7 +12,7 @@ public class sortTest {
             int j = i-1;
             int num = arr[i];
             for (;j>=0;j--){
-                if (arr[j] < num){
+                if (arr[j] <= num){
                     break;
                 }
                 arr[j+1] = arr[j];
@@ -22,25 +22,19 @@ public class sortTest {
     }
 
     public void hillsort(int[] arr){
-        if (arr.length==0||arr.length==1){
-            return;
-        }
-        for (int k = arr.length/2;k>0;k/=2){
+        for (int gap = arr.length/2;gap>0;gap/=2){
             for (int i = 1;i < arr.length;i++){
-                int j = i - k;
+                int j = i - gap;
                 int num = arr[i];
-                for (;j>=0 && arr[j] > num;j-=k){
-                    arr[j+k] = arr[j];
+                for (;j>=0 && arr[j] > num;j-=gap){
+                    arr[j+gap] = arr[j];
                 }
-                arr[j+k] = num;
+                arr[j+gap] = num;
             }
         }
     }
 
-    public void selectsort(int[] arr){
-        if (arr.length==0||arr.length==1){
-            return;
-        }
+    private void selectsort(int[] arr){
         for (int i = 0;i < arr.length; i++){
             int min = i;
             for (int j = i;j<arr.length;j++){
@@ -52,7 +46,7 @@ public class sortTest {
         }
     }
 
-    public void heapsort(int[] arr){
+    private void heapsort(int[] arr){
         createheap(arr);
         for (int i=0;i<arr.length;i++){
             exange(arr,0,arr.length-i-1);
@@ -215,7 +209,7 @@ public class sortTest {
         }
     }
 
-    public void exange(int[] arr,int i, int j){
+    private void exange(int[] arr,int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
@@ -224,7 +218,7 @@ public class sortTest {
     public static void main(String[] args) {
         sortTest test = new sortTest();
         int[] arr = {1,5,6,2,6,4,1,7};
-        test.mergeedsort(arr);
+        test.heap(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
