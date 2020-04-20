@@ -3,9 +3,9 @@ package java_0418;
 // 通过开散列的方式来处理 hash 冲突
 public class MyHashMap {
     static class Node {
-        public int key;
-        public int value;
-        public Node next;
+        public int key;     //数的下标
+        public int value;       //数值
+        public Node next;       
 
         public Node(int key, int value) {
             this.key = key;
