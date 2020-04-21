@@ -59,13 +59,13 @@
       <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution03">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0413.Main" />
+  <component name="RunManager" selected="Application.QB3Test">
+    <configuration name="QB1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB1.QB1Test" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0413.*" />
+          <option name="PATTERN" value="java_0421.PartB.QB1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0409.Solution02" />
+    <configuration name="QB2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB2.QB2Test" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0409.*" />
+          <option name="PATTERN" value="java_0421.PartB.QB2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QB3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB3.QB3Test" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0421.PartB.QB3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0414.sortTest" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0414.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QB3Test" />
+        <item itemvalue="Application.QB2Test" />
+        <item itemvalue="Application.QB1Test" />
         <item itemvalue="Application.Solution03" />
         <item itemvalue="Application.again" />
-        <item itemvalue="Application.sortTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution02" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +179,8 @@
       <workItem from="1587182599942" duration="14079000" />
       <workItem from="1587257522426" duration="7932000" />
       <workItem from="1587346459512" duration="13953000" />
+      <workItem from="1587434799865" duration="280000" />
+      <workItem from="1587435408009" duration="9336000" />
     </task>
     <servers />
   </component>
@@ -186,30 +188,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="510" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587435573074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587435573074" />
     <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1587361712002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587361712002" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1586769001843">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1587435077202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586769001843" />
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1587385398682">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587435077202" />
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1587443903383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587385398682" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1587385398682">
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
+    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1587443903383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587385398682" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1587385398682">
+    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
+    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1587443903383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587385398682" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1587385398682">
+    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
+    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1587443903383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587385398682" />
+    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1587385399423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,14 +236,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586135749024" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587346458998">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587434796517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587346458998" />
-    <state x="178" y="29" key="new project wizard" timestamp="1585709835574">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587434796517" />
+    <state x="178" y="29" key="new project wizard" timestamp="1587435080160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585709835574" />
+    <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587435080160" />
     <state x="510" y="60" key="refactoring.ChangeSignatureDialog" timestamp="1585709757566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
