@@ -5,7 +5,7 @@ public class MyHashMap {
     static class Node {
         public int key;     //数的下标
         public int value;       //数值
-        public Node next;       
+        public Node next;
 
         public Node(int key, int value) {
             this.key = key;
