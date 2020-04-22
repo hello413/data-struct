@@ -1,3 +1,5 @@
+package java_0421.PartB.QB4;
+
 /**
  * Let's define some test cases without JUnit.
  * This will save some time to configure JUnit.

@@ -1,5 +1,9 @@
 package java_0421.PartB.QB3;
 
+import java_0415.BinarySearchTree;
+
+import java.util.*;
+
 public class RBTree<T extends Comparable<T>> {
 
     public enum Colour {
@@ -54,6 +58,8 @@ public class RBTree<T extends Comparable<T>> {
         //null tree
         if (root==null){
             return true;
+        }else if (!issort(root)) {
+            return false;
         }else if (root.colour==Colour.RED){ //The root node is not black
             return false;
         }
@@ -69,11 +75,11 @@ public class RBTree<T extends Comparable<T>> {
     }
 
     private boolean isbalance(Node<T> cur, int count, int num) {
-        //Continuous red node
         if (cur==null){
             return true;
         }
-        if (cur.colour==Colour.RED&&cur.parent.colour==Colour.RED){
+        //Continuous red node
+        if (cur.colour==Colour.RED && cur.parent.colour==Colour.RED){
             return false;
         }
         if (cur.colour==Colour.BLACK){
@@ -87,12 +93,90 @@ public class RBTree<T extends Comparable<T>> {
         return isbalance(cur.left,count,num)&&isbalance(cur.right,count,num);
     }
 
+    private boolean issort(Node root){
+        List<Node> list = inOrderNode(root);
+        for (int i = 0;i<list.size()-1;i++){
+            if (list.get(i).value.compareTo(list.get(i+1).value)>0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public List<Node> inOrderNode(Node root) {
+        List<Node> list = new ArrayList<>();
+        if (root==null){
+            return list;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while (true) {
+            // 1. 循环往左找, 把路径上遇到的节点都入栈
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            // 2. 如果当前栈为空, 遍历就结束了
+            if (stack.isEmpty()) {
+                break;
+            }
+            // 3. 取栈顶元素并访问
+            Node top = stack.pop();
+            if (top.value!=null) {
+                list.add(top);
+            }
+            // 4. 从当前节点的右子树再出发继续刚才的过程
+            cur = top.right;
+        }
+        return list;
+    }
+
     // Check property 2
     public boolean testProp2() {
         // TODO: Implement this method
         // You are allowed to use any standard library
         // You may define additional helper methods to complete the task
-        return false; // remove this once you have implemented this method
+        if (root==null){
+            return true;
+        }else if (!issort(root)) {
+            return false;
+        }else if (root.colour==Colour.RED){ //The root node is not black
+            return false;
+        }
+        Map<Node,Integer> map = new HashMap<>();
+        List<Node> list = inOrderNode(root);
+        for (Node node:list){
+            if (node!=root && node.colour==Colour.RED&&node.parent.colour==Colour.RED){
+                return false;
+            }
+            map.put(node,getleft(node));
+        }
+        for (Node node:list){
+            if (map.get(node)!=getright(node)){
+                return false;
+            }
+        }
+        return true; // remove this once you have implemented this method
+    }
+
+    private Integer getleft(Node cur) {
+        int count=0;
+        while (cur!=null){
+            if (cur.colour==Colour.BLACK)
+                count++;
+            cur=cur.left;
+        }
+        return count;
+    }
+
+    private Integer getright(Node cur) {
+        int count=0;
+        while (cur!=null){
+            if (cur.colour==Colour.BLACK)
+                count++;
+            cur=cur.right;
+        }
+        return count;
     }
 
     /**

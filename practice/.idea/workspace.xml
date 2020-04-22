@@ -59,7 +59,7 @@
       <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QB3Test">
+  <component name="RunManager" selected="Application.QB4Test">
     <configuration name="QB1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB1.QB1Test" />
       <module name="practice" />
@@ -99,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QB4Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB4.QB4Test" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0421.PartB.QB4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0420.Solution03" />
       <module name="practice" />
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="again" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0415.again" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_0415.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QB4Test" />
         <item itemvalue="Application.QB3Test" />
         <item itemvalue="Application.QB2Test" />
         <item itemvalue="Application.QB1Test" />
         <item itemvalue="Application.Solution03" />
-        <item itemvalue="Application.again" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,7 @@
       <workItem from="1587257522426" duration="7932000" />
       <workItem from="1587346459512" duration="13953000" />
       <workItem from="1587434799865" duration="280000" />
-      <workItem from="1587435408009" duration="9336000" />
+      <workItem from="1587435408009" duration="20991000" />
     </task>
     <servers />
   </component>
@@ -200,22 +200,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587435077202" />
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1587443903383">
+    <state width="1493" height="179" key="GridCell.Tab.0.bottom" timestamp="1587454909347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
-    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1587443903383">
+    <state width="1493" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587454909347" />
+    <state width="1493" height="179" key="GridCell.Tab.0.center" timestamp="1587454909347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
-    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1587443903383">
+    <state width="1493" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587454909347" />
+    <state width="1493" height="179" key="GridCell.Tab.0.left" timestamp="1587454909347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
-    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1587443903383">
+    <state width="1493" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587454909347" />
+    <state width="1493" height="179" key="GridCell.Tab.0.right" timestamp="1587454909347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587443903383" />
+    <state width="1493" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587454909347" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1587385399423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

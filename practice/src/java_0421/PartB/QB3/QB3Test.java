@@ -24,7 +24,7 @@ public class QB3Test {
 
         // Test properties together
         tree.search(11).setColour(false);
-        System.out.println("Test 3: " + ((tree.testProp1() && tree.testProp2()) ? "PASSED" : "FAILED"));
+        System.out.println("Test 3: " + (!(tree.testProp1() && tree.testProp2()) ? "PASSED" : "FAILED"));
         tree.search(11).setColour(true);
         
         tree.search(9).setColour(false);
