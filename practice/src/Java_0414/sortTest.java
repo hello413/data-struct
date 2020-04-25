@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class sortTest {
-    private void insertsort(int[] arr){
+    private void insertsort(int[] arr){     //插入
         if (arr.length==0||arr.length==1){
             return;
         }
@@ -21,7 +21,7 @@ public class sortTest {
         }
     }
 
-    public void hillsort(int[] arr){
+    public void hillsort(int[] arr){        //希尔
         for (int gap = arr.length/2;gap>0;gap/=2){
             for (int i = 1;i < arr.length;i++){
                 int j = i - gap;
@@ -34,7 +34,7 @@ public class sortTest {
         }
     }
 
-    private void selectsort(int[] arr){
+    private void selectsort(int[] arr){             //选择
         for (int i = 0;i < arr.length; i++){
             int min = i;
             for (int j = i;j<arr.length;j++){
@@ -46,7 +46,7 @@ public class sortTest {
         }
     }
 
-    private void heapsort(int[] arr){
+    private void heapsort(int[] arr){       //堆
         createheap(arr);
         for (int i=0;i<arr.length;i++){
             exange(arr,0,arr.length-i-1);
@@ -79,7 +79,7 @@ public class sortTest {
         }
     }
 
-    private void bubblesort(int[] arr){
+    private void bubblesort(int[] arr){     //冒泡
         for (int i = 0; i < arr.length; i++){
             boolean issorted = true;
             for (int j = 0; j < arr.length-i-1; j++){
@@ -96,7 +96,7 @@ public class sortTest {
 
     private void quicksort(int[] arr){
         quickedhead(arr,0,arr.length-1);
-    }
+    }       //快速（递归）
 
     private void quickedhead(int[] arr, int left, int right) {
         if (left>=right){
@@ -119,7 +119,7 @@ public class sortTest {
         quickedhead(arr,i+1,right);
     }
 
-    private void quickheap(int[] arr){
+    private void quickheap(int[] arr){      //快速（非递归）
         Stack<Integer> stack = new Stack<>();
         stack.push(arr.length-1);
         stack.push(0);
@@ -180,7 +180,7 @@ public class sortTest {
 
     private void mergesort(int[] arr){
         mergesortheap(arr,0,arr.length);
-    }
+    }       //归并（递归）
 
     private void mergesortheap(int[] arr, int left, int right) {
         if (right-left<=1){
@@ -192,7 +192,7 @@ public class sortTest {
         addarray(arr,left,mid,right);
     }
 
-    private void mergeedsort(int[] arr){
+    private void mergeedsort(int[] arr){            //归并（非递归）
         for (int i = 1;i<arr.length;i*=2){
             for (int j = 0;j<arr.length;j=j+2*i){
                 int left = j;
