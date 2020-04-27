@@ -1,10 +1,10 @@
-package java_0418;
+package java_0424;
 
 // 通过开散列的方式来处理 hash 冲突
-public class MyHashMap {
+public class HashBucket {
     static class Node {
-        public int key;     //数的下标
-        public int value;       //数值
+        public int key;     //数值
+        public int value;       //数的下标
         public Node next;
 
         public Node(int key, int value) {
@@ -13,11 +13,11 @@ public class MyHashMap {
         }
     }
 
-    private static final double LOAD_FACTOR = 0.75;
+    private static final double LOAD_FACTOR = 0.75;     //负载因子
 
     // array 就是 hash 表的本体. 数组的每个元素又是一个链表的头结点.
     private Node[] array = new Node[101];
-    private double size = 0; // 表示当前 hash 表中的元素个数
+    private int size = 0; // 表示当前 hash 表中的元素个数
 
     private int hashFunc(int key) {
         // 实际的 hashFunc 可能会比较复杂的.
@@ -46,7 +46,7 @@ public class MyHashMap {
         array[index] = newNode;
         size++;
 
-        if (size / array.length > LOAD_FACTOR) {        //如果size是int类型
+        if (size / array.length > LOAD_FACTOR) {
             resize();
         }
     }
