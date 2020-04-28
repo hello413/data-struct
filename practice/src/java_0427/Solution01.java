@@ -1,36 +1,32 @@
 package java_0427;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Solution01 {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
-        List<Integer> list = new ArrayList<>();
-        int num = mucharrnum(words);
+        int[] arr = new int[queries.length];
+        int[] wordarr = wordnum(words);
         for (int i = 0;i<queries.length;i++){
             int much = littlenums(queries[i]);
-            if (much<num){
-                list.add(i+1);
+            int count = 0;
+            for (int ch: wordarr){
+                if (much<ch){
+                    count++;
+                }
             }
-        }
-        int[] arr = new int[list.size()];
-        for (int i=0;i<arr.length;i++){
-            arr[i]=list.get(i);
+            arr[i] = count;
         }
         return arr;
     }
 
-    public int mucharrnum(String[] words){
-        int mach = 0;
+    public int[] wordnum(String[] words){
+        int[] arr = new int[words.length];
+        int i = 0;
         for (String s:words){
-            int num = littlenums(s);
-            if (num>mach){
-                mach = num;
-            }
+            arr[i++] = littlenums(s);
         }
-        return mach;
+        return arr;
     }
 
     public int littlenums(String s){
