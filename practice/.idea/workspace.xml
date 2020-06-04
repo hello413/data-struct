@@ -45,27 +45,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java_0406" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\lib" />
       <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyHashMap">
-    <configuration name="HashBucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0424.HashBucket" />
+  <component name="RunManager" selected="Application.ThreadTest">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0604.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0424.*" />
+          <option name="PATTERN" value="java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0427.MyHashMap" />
+    <configuration name="Parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0604.Parenthesis" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0427.*" />
+          <option name="PATTERN" value="java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0426.MyHashSet" />
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0604.ThreadTest" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0426.*" />
+          <option name="PATTERN" value="java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,39 +103,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QB3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB3.QB3Test" />
+    <configuration name="Parenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0421.PartB.QB3.*" />
+          <option name="PATTERN" value="java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java_0604" />
+      <option name="MAIN_CLASS_NAME" value="java_0604.Parenthesis" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QB4Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0421.PartB.QB4.QB4Test" />
+    <configuration name="Parenthesis.chkParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0421.PartB.QB4.*" />
+          <option name="PATTERN" value="java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java_0604" />
+      <option name="MAIN_CLASS_NAME" value="java_0604.Parenthesis" />
+      <option name="METHOD_NAME" value="chkParenthesis" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyHashMap" />
-        <item itemvalue="Application.MyHashSet" />
-        <item itemvalue="Application.HashBucket" />
-        <item itemvalue="Application.QB4Test" />
-        <item itemvalue="Application.QB3Test" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.Parenthesis" />
+        <item itemvalue="JUnit.Parenthesis" />
+        <item itemvalue="JUnit.Parenthesis.chkParenthesis" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +198,9 @@
       <workItem from="1587980038407" duration="7577000" />
       <workItem from="1588042036635" duration="2066000" />
       <workItem from="1588241311927" duration="742000" />
+      <workItem from="1590972713940" duration="3683000" />
+      <workItem from="1591007707275" duration="1905000" />
+      <workItem from="1591240981338" duration="6331000" />
     </task>
     <servers />
   </component>
@@ -196,6 +208,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1591244581796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591244581796" />
     <state x="510" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587435573074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,50 +220,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587361712002" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1588245656323">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1591244579215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588245656323" />
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1587975265574">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591244579215" />
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1591246638184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587975265574" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1587975265574">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591246638184" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1591246638184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587975265574" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1587975265574">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591246638184" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1591246638184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587975265574" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1587975265574">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591246638184" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1591246638184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587975265574" />
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1587975265575">
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591246638184" />
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1591244917574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587975265575" />
-    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1587975265575">
+    <state width="1493" height="186" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591244917574" />
+    <state width="1493" height="186" key="GridCell.Tab.1.center" timestamp="1591244917574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587975265575" />
-    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1587975265575">
+    <state width="1493" height="186" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591244917574" />
+    <state width="1493" height="186" key="GridCell.Tab.1.left" timestamp="1591244917574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587975265575" />
-    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1587975265575">
+    <state width="1493" height="186" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591244917574" />
+    <state width="1493" height="186" key="GridCell.Tab.1.right" timestamp="1591244917574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587975265575" />
+    <state width="1493" height="186" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591244917574" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1586135749024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586135749024" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588241319906">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1591007748639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588241319906" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591007748639" />
     <state x="178" y="29" key="new project wizard" timestamp="1588245680251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -313,6 +329,11 @@
           <url>file://$PROJECT_DIR$/src/java_0427/MyHashSet.java</url>
           <line>109</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java_0604/Parenthesis.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
