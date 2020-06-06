@@ -33,5 +33,6 @@ public class Finder {
                 end--;
             }
         }
+        return -1;
     }
 }
