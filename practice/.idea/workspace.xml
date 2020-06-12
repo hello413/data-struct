@@ -63,7 +63,7 @@
       <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Robot">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0610.Main" />
       <module name="practice" />
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0609.Main" />
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0611.Robot" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0609.*" />
+          <option name="PATTERN" value="java_0611.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Robot" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.heapSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +205,8 @@
       <workItem from="1591700992400" duration="184000" />
       <workItem from="1591715591016" duration="1248000" />
       <workItem from="1591780513164" duration="2766000" />
+      <workItem from="1591796263895" duration="65000" />
+      <workItem from="1591846407230" duration="2614000" />
     </task>
     <servers />
   </component>
@@ -232,22 +234,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591244579215" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1591788908776">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1591851825979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591788908776" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1591788908776">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591851825979" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1591851825979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591788908776" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1591788908776">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591851825979" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1591851825979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591788908776" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1591788908776">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591851825979" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1591851825979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591788908776" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591851825979" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1591716840226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
