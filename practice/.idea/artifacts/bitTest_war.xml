@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bitTest:war">
+    <output-path>D:/Javaweb/test/bitTest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bitTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bitTest.war">
+      <element id="artifact" artifact-name="bitTest:war exploded" />
+    </root>
+  </artifact>
+</component>

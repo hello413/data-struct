@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bitTest:war exploded">
+    <output-path>D:/Javaweb/test/bitTest/target/bitTest</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>bitTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bitTest" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:/Javaweb/test/bitTest/target/bitTest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="bitTest/web/Web" />
+    </root>
+  </artifact>
+</component>

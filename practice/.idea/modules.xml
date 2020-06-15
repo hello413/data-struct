@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/Javaweb/test/bitTest/bitTest.iml" filepath="D:/Javaweb/test/bitTest/bitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
     </modules>
   </component>
