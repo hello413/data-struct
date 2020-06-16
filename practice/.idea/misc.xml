@@ -2,11 +2,12 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://D:/Javaweb/test/bitTest" />
+    <file type="web" url="file://D:/Javaweb/test/blogdemo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="D:/Javaweb/test/bitTest/pom.xml" />
+        <option value="D:/Javaweb/test/blogdemo/pom.xml" />
       </list>
     </option>
   </component>
