@@ -1,24 +1,13 @@
 class Base{
-    public Base(String s){
-        System.out.println("B");
-    }
 }
 
 public class Test extends Base{
-    public Test(String s) {
-        super(s);
-        System.out.println("d");
-    }
+    private static int x=0;
 
     public static void main(String[] args) {
-        s();
+        Test x = new Test();
+        x.x++;
+        System.out.println(x.x);
     }
-    public static void x(){
-        s();
-        System.out.println("221");
-    }
-    public void s(){
-        x();
-        System.out.println("22");
-    }
+
 }
