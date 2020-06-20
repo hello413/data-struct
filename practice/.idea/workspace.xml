@@ -121,20 +121,12 @@
       <recent name="C:\Users\雷金鹏\Desktop\data-struct\practice\src\Java_0406" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0616.Main" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_0616.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn tomcat7:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.sortTest">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="practice" />
@@ -155,7 +147,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Z" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0619.Z" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0619.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0616.quickSort" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -163,26 +169,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java_0616" />
-      <option name="MAIN_CLASS_NAME" value="java_0616.Test" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jDBCUtilsTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blogdemo" />
+    <configuration name="sortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0620.sortTest" />
+      <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itpainter.util.*" />
+          <option name="PATTERN" value="java_0620.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.itpainter.util" />
-      <option name="MAIN_CLASS_NAME" value="com.itpainter.util.jDBCUtilsTest" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,20 +262,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="JUnit.jDBCUtilsTest.t1" />
-      <item itemvalue="JUnit.Test.t1" />
+      <item itemvalue="Application.Z" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="Application.quickSort" />
+      <item itemvalue="Application.sortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sortTest" />
+        <item itemvalue="Application.quickSort" />
+        <item itemvalue="Application.Z" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.Test.t1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.jDBCUtilsTest.t1" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +357,9 @@
       <workItem from="1592210122165" duration="7187000" />
       <workItem from="1592276407872" duration="14211000" />
       <workItem from="1592359687424" duration="8061000" />
-      <workItem from="1592448758017" duration="6103000" />
+      <workItem from="1592448758017" duration="7295000" />
+      <workItem from="1592530450673" duration="8614000" />
+      <workItem from="1592617035964" duration="10989000" />
     </task>
     <servers />
   </component>
@@ -414,22 +415,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592285216473" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1592491881485">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1592667641710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592491881485" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1592491881485">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592667641710" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1592667641709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592491881485" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1592491881485">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1592667641709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592491881485" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1592491881485">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1592667641709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592491881485" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1592315805703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -470,10 +471,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592210050876" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1592448758011">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1592530451844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592448758011" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592530451844" />
     <state x="323" y="152" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592286682938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -486,10 +487,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="60" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591424143651" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1592234122687">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1592559366589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592234122687" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592559366589" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587967158117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -562,6 +563,11 @@
           <url>file://$PROJECT_DIR$/src/java_0609/Solution.java</url>
           <line>28</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java_0618/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
