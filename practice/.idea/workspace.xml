@@ -112,6 +112,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java_0622" />
       <recent name="java_0617" />
       <recent name="java_0616" />
     </key>
@@ -126,20 +127,26 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.sortTest">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0622.Main" />
       <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0622.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0616.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0621.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0616.*" />
+          <option name="PATTERN" value="java_0621.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,20 +269,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Z" />
       <item itemvalue="Application.quickSort" />
       <item itemvalue="Application.sortTest" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.sortTest" />
         <item itemvalue="Application.quickSort" />
         <item itemvalue="Application.Z" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +367,8 @@
       <workItem from="1592448758017" duration="7295000" />
       <workItem from="1592530450673" duration="8614000" />
       <workItem from="1592617035964" duration="10989000" />
-      <workItem from="1592716461084" duration="781000" />
+      <workItem from="1592716461084" duration="10355000" />
+      <workItem from="1592796457950" duration="4191000" />
     </task>
     <servers />
   </component>
@@ -380,10 +388,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587435573074" />
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1592387803266">
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1592824373285">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592387803266" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592824373285" />
     <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592142181389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -416,22 +424,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592716614191" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1592667641710">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1592829564329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592667641710" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1592667641709">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592829564329" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1592829564328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1592667641709">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592829564328" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1592829564328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1592667641709">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592829564328" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1592829564329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592667641709" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592829564329" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1592315805703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
