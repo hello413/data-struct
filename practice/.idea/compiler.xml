@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="stu-dorm-sys" />
         <module name="blogdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bitTest" target="1.8" />
       <module name="blogdemo" target="1.5" />
+      <module name="stu-dorm-sys" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

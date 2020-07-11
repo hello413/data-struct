@@ -3,11 +3,13 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://D:/Javaweb/test/bitTest" />
     <file type="web" url="file://D:/Javaweb/test/blogdemo" />
+    <file type="web" url="file://D:/Javaweb/test/stu-dorm-sys" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="D:/Javaweb/test/blogdemo/pom.xml" />
+        <option value="D:/Javaweb/test/stu-dorm-sys/pom.xml" />
       </list>
     </option>
   </component>
