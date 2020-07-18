@@ -137,13 +137,39 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Printer">
+  <component name="RunManager" selected="Application.ExtendsCat">
+    <configuration name="ExtendsCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0718.ExtendsCat" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0718.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0716.LCA" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_0716.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0717.Main" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0717.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,26 +199,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Utiltest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stu-dorm-sys" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Utiltest" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Utiltest.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stu-dorm-sys" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Utiltest" />
-      <option name="METHOD_NAME" value="t2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,21 +351,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Utiltest.t1" />
-      <item itemvalue="JUnit.Utiltest.t2" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
-      <item itemvalue="Tomcat Server.stu-dorm-sys" />
       <item itemvalue="Application.LCA" />
       <item itemvalue="Application.Replacement" />
       <item itemvalue="Application.Printer" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="Tomcat Server.stu-dorm-sys" />
+      <item itemvalue="Application.ExtendsCat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtendsCat" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Printer" />
         <item itemvalue="Application.Replacement" />
         <item itemvalue="Application.LCA" />
-        <item itemvalue="JUnit.Utiltest.t1" />
-        <item itemvalue="JUnit.Utiltest.t2" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +474,8 @@
       <workItem from="1594555716052" duration="2972000" />
       <workItem from="1594609096628" duration="1866000" />
       <workItem from="1594871045338" duration="3897000" />
+      <workItem from="1594940585447" duration="3110000" />
+      <workItem from="1595033115955" duration="1889000" />
     </task>
     <servers />
   </component>
@@ -487,10 +495,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587435573074" />
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1592914576092">
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1595034734398">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592914576092" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595034734398" />
     <state x="499" y="194" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592142181389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -523,22 +531,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594526761704" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1594874844622">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1594947479683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594874844622" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1594874844622">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594947479683" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1594947479683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594874844622" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1594874844622">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594947479683" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1594947479683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594874844622" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1594874844622">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594947479683" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1594947479683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594874844622" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594947479683" />
     <state width="1493" height="186" key="GridCell.Tab.1.bottom" timestamp="1594871817533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -579,10 +587,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594444993318" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1594609096697">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1594941435831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594609096697" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594941435831" />
     <state x="323" y="152" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592286682938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
