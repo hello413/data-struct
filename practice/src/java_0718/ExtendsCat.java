@@ -1,8 +1,8 @@
 package java_0718;
 
 class Animal {
-    private String name;
-    protected int id;
+    public String name;
+    public int id;
     public Animal(String myName, int myid) {
         name = myName;
         id = myid;
@@ -13,7 +13,7 @@ class Animal {
         System.out.println("an");
     }
 
-    private void eat(){
+    public void eat(){
         System.out.println(name+"正在吃");
     }
 }
@@ -21,16 +21,32 @@ class Animal {
 public class ExtendsCat extends Animal{
 
     public ExtendsCat(String myName, int myid) {
-//        super(myName, myid);
+        super(myName, myid);
     }
-//public ExtendsCat() {
-//    System.out.println("en");
-//}
+    public ExtendsCat() {
+        System.out.println("en");
+    }
+    @Override
+    public void eat(){
+        System.out.println(name+"正在吃子类的");
+    }
     public void sleep(){
-        System.out.println("正在睡");
+        System.out.println(name+"正在shui子类的");
     }
+    static{
+        a=5;
+//        System.out.println(a);
+    }
+    static int a;
+
+
+
 
     public static void main(String[] args) {
-        new ExtendsCat();
+        System.out.println(new ExtendsCat().a);
+//        Animal a = new ExtendsCat("小猫",1);
+//        ExtendsCat eat = (ExtendsCat)a;
+//        eat.sleep();
     }
+
 }
