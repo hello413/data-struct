@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://D:/Javaweb/test/bitTest" />
     <file type="web" url="file://D:/Javaweb/test/blogdemo" />
+    <file type="web" url="file://D:/Javaweb/test/classroom_code/chess" />
+    <file type="web" url="file://D:/Javaweb/test/classroom_code/java15_chess" />
     <file type="web" url="file://D:/Javaweb/test/stu-dorm-sys" />
   </component>
   <component name="MavenProjectsManager">
@@ -10,6 +12,8 @@
       <list>
         <option value="D:/Javaweb/test/blogdemo/pom.xml" />
         <option value="D:/Javaweb/test/stu-dorm-sys/pom.xml" />
+        <option value="D:/Javaweb/test/classroom_code/java15_chess/pom.xml" />
+        <option value="D:/Javaweb/test/classroom_code/chess/pom.xml" />
       </list>
     </option>
   </component>

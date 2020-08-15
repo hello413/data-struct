@@ -98,26 +98,26 @@ public class sortTest {
         quickedhead(arr,0,arr.length-1);
     }       //快速（递归）
 
-    private void quickedhead(int[] arr, int left, int right) {
-        if (left>=right){
-            return;
-        }
-        int i = left;
-        int j = right;
-        int par = arr[right];
-        while (i<j){
-            while (i<j&&arr[i]<=par){
-                i++;
+        private void quickedhead(int[] arr, int left, int right) {
+            if (left>=right){
+                return;
             }
-            while (i<j&&arr[j]>=par){
-                j--;
+            int i = left;
+            int j = right;
+            int par = arr[right];
+            while (i<j){
+                while (i<j&&arr[i]<=par){
+                    i++;
+                }
+                while (i<j&&arr[j]>=par){
+                    j--;
+                }
+                exange(arr,i,j);
             }
-            exange(arr,i,j);
+            exange(arr,i,right);
+            quickedhead(arr,left,i-1);
+            quickedhead(arr,i+1,right);
         }
-        exange(arr,i,right);
-        quickedhead(arr,left,i-1);
-        quickedhead(arr,i+1,right);
-    }
 
     private void quickheap(int[] arr){      //快速（非递归）
         Stack<Integer> stack = new Stack<>();
