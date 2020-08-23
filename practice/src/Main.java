@@ -2,24 +2,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String line = sc.nextLine();
-        String str = sc.next();
-        if (str==null){
-            System.out.println(0);
-        }
-        String[] arr = line.split(" ");
-        int num=0;
-        for (int i =0;i<arr.length;i++){
-            String s = arr[i];
-            for (int j=0;j<s.length()&&j<str.length();j++){
-                if (str.contains(s.charAt(j)+"")){
-                    num++;
-                }else {
-                    break;
-                }
+
+    }
+
+    private static int PrinMax(int index, int[] arr) {
+        int first = 0,second = 0;
+        arr[index] = 0;
+        for (int i=0;i<arr.length;i++){
+            if (i<index){
+                first+=arr[i];
+            }else if(i>index){
+                second+=arr[i];
             }
         }
-        System.out.println(num);
+        return Math.max(first,second);
     }
 }

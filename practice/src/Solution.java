@@ -60,7 +60,7 @@ class Solution {
                 System.out.println();
             }
         }
-    }synchronized
+    }
     public static int getArrayListCapacity(ArrayList<?> arrayList) {
         Class<ArrayList> arrayListClass = ArrayList.class;
         try {
