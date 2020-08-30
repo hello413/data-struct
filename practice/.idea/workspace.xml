@@ -142,20 +142,7 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0824.Main" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_0824.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0825.Main" />
       <module name="practice" />
@@ -182,6 +169,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java_0827.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0829.Main" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_0829.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,22 +436,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Tomcat Server.chess" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="Tomcat Server.stu-dorm-sys" />
-      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -601,6 +601,7 @@
       <workItem from="1598248584246" duration="5018000" />
       <workItem from="1598448915955" duration="4359000" />
       <workItem from="1598498195946" duration="6948000" />
+      <workItem from="1598620302415" duration="8749000" />
     </task>
     <servers />
   </component>
@@ -652,22 +653,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597922010816" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1598532420132">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1598694252762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598532420132" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1598532420132">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598694252762" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1598694252762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598532420132" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1598532420132">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598694252762" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1598694252762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598532420132" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1598532420132">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598694252762" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1598694252762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598532420132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598694252762" />
     <state width="1024" height="210" key="GridCell.Tab.1.bottom" timestamp="1597918950156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -708,10 +709,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597919734984" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1598498192312">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1598620302358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598498192312" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598620302358" />
     <state x="485" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597922020552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
