@@ -19,12 +19,46 @@ public class nodeSort {
         b.next = c;
         c.next = d;
         d.next = e;
-
+        Node node = mergeSort(a);
+        while (node!=null){
+            System.out.print(node.val+",");
+            node=node.next;
+        }
     }
-    public static void quickSort(Node head){
-
+    public static Node mergeSort(Node head){        //归并
+        if (head==null||head.next==null)return head;
+        Node left = head;
+        Node mid = getMidNode(head);
+        Node right = mid.next;
+        mid.next = null;
+        return mergeSortHelp(mergeSort(left),mergeSort(right));
     }
-    public static void mergeSort(Node head){        //归并
-        
+
+    private static Node mergeSortHelp(Node left, Node right) {
+        Node newHead = new Node(-1);
+        Node newTail = newHead;
+        while (left!=null&&right!=null){
+            if (left.val<right.val){
+                newTail.next = left;
+                left = left.next;
+            }else {
+                newTail.next = right;
+                right = right.next;
+            }
+            newTail = newTail.next;
+        }
+        if (left!=null)newTail.next = left;
+        if (right!=null)newTail.next = right;
+        return newHead.next;
+    }
+
+    private static Node getMidNode(Node head) {
+        if (head==null||head.next==null)return head;
+        int len = 0;
+        Node cur = head;
+        for (;cur!=null;cur=cur.next)len++;
+        for (int i =0;i<(len-1)/2;i++)
+            head = head.next;
+        return head;
     }
 }
