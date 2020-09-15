@@ -143,7 +143,7 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xiaomi.Main" />
       <module name="practice1" />
@@ -157,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0913.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_0915.Main" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0913.*" />
+          <option name="PATTERN" value="java_0915.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,22 +443,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Tomcat Server.chess" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
-      <item itemvalue="Tomcat Server.stu-dorm-sys" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Tomcat Server.chess" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="Tomcat Server.stu-dorm-sys" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -636,6 +636,7 @@
       <workItem from="1599876966324" duration="7015000" />
       <workItem from="1599974766107" duration="10338000" />
       <workItem from="1600048038063" duration="8797000" />
+      <workItem from="1600159807494" duration="2037000" />
     </task>
     <servers />
   </component>
@@ -687,22 +688,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597922010816" />
-    <state width="1342" height="255" key="GridCell.Tab.0.bottom" timestamp="1600089179352">
+    <state width="1493" height="87" key="GridCell.Tab.0.bottom" timestamp="1600160269931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600089179352" />
-    <state width="1342" height="255" key="GridCell.Tab.0.center" timestamp="1600089179352">
+    <state width="1493" height="87" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600160269931" />
+    <state width="1493" height="87" key="GridCell.Tab.0.center" timestamp="1600160269931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600089179352" />
-    <state width="1342" height="255" key="GridCell.Tab.0.left" timestamp="1600089179352">
+    <state width="1493" height="87" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600160269931" />
+    <state width="1493" height="87" key="GridCell.Tab.0.left" timestamp="1600160269930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600089179352" />
-    <state width="1342" height="255" key="GridCell.Tab.0.right" timestamp="1600089179352">
+    <state width="1493" height="87" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600160269930" />
+    <state width="1493" height="87" key="GridCell.Tab.0.right" timestamp="1600160269931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600089179352" />
+    <state width="1493" height="87" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600160269931" />
     <state width="1342" height="143" key="GridCell.Tab.1.bottom" timestamp="1600087789021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -751,10 +752,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599122469286" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1600048034921">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1600159879290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600048034921" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600159879290" />
     <state x="485" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597922020552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -767,10 +768,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="356" y="53" width="1180" height="590" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599698342419" />
-    <state x="510" y="60" key="refactoring.ChangeSignatureDialog" timestamp="1591424143651">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="510" y="60" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591424143651" />
     <state x="425" y="186" width="672" height="677" key="run.anything.popup" timestamp="1600087656291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
