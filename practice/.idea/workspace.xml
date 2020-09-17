@@ -447,10 +447,10 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Tomcat Server.chess" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="Tomcat Server.stu-dorm-sys" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
@@ -637,6 +637,7 @@
       <workItem from="1599974766107" duration="10338000" />
       <workItem from="1600048038063" duration="8797000" />
       <workItem from="1600159807494" duration="2037000" />
+      <workItem from="1600227075589" duration="1914000" />
     </task>
     <servers />
   </component>
@@ -672,10 +673,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1594451721599" />
-    <state x="439" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591528914876">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="439" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1591528914876" />
     <state x="499" y="162" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1592236768801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -752,10 +749,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599122469286" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1600159879290">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1600227070474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600159879290" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600227070474" />
     <state x="485" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597922020552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
