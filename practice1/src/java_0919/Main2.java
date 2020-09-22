@@ -5,8 +5,18 @@ import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String s = in.nextLine();
-        String p = in.nextLine();
-        System.out.println(true);
+        StringBuffer has = new StringBuffer(in.next());
+        StringBuffer need = new StringBuffer(in.next());
+        int size = 0;
+
+        for (int i =0;i< need.length();i++){
+            String ch = need.charAt(i)+"";
+            if (has.toString().contains(ch)){
+                has.deleteCharAt(has.toString().indexOf(ch));
+                size++;
+            }
+        }
+
+        System.out.println(size);
     }
 }
