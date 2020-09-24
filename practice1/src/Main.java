@@ -4,21 +4,41 @@ import java.util.*;
 public class Main {
      
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
-        int count = in.nextInt();
-        in.nextLine();
-
-        while (count-- > 0){
-            String str = in.nextLine();
-            if (isSeem(str)){
-                System.out.println("Yes");
-            }else {
-                System.out.println("No");
-            }
-        }
+        String s = "abc";
+        String pattern = "bc";
+        int index = indexOf(s,pattern);
+        System.out.println(index);
+//        Scanner in = new Scanner(System.in);
+//
+//        int count = in.nextInt();
+//        in.nextLine();
+//
+//        while (count-- > 0){
+//            String str = in.nextLine();
+//            if (isSeem(str)){
+//                System.out.println("Yes");
+//            }else {
+//                System.out.println("No");
+//            }
+//        }
     }
 
+    public static int indexOf (String s, String pattern) {
+        int sLen = s.length();
+        int pLen = pattern.length();
+        int sIndex = 0;
+        int pIndex = 0;
+        while (sIndex<sLen&&pIndex<pLen){
+            if (s.charAt(sIndex)==pattern.charAt(pIndex)){
+                sIndex++;
+                pIndex++;
+            }else {
+                sIndex = sIndex-pIndex+1;
+                pIndex=0;
+            }
+        }
+        return pIndex==pLen?(pIndex>1?sIndex-pLen:sIndex-1):-1;
+    }
     private static boolean isSeem(String str) {
         int len = str.length();
         if (len%3 != 0){
