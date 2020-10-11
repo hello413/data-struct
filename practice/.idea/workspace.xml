@@ -143,7 +143,7 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="CQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_1005.CQueue" />
       <module name="practice1" />
@@ -158,11 +158,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1006.Main" />
+      <option name="MAIN_CLASS_NAME" value="java_1006.Main" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java1006.*" />
+          <option name="PATTERN" value="java_1006.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0929.Main1" />
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_1010.Main1" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0929.*" />
+          <option name="PATTERN" value="java_1010.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0929.Main2" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_1010.Main2" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0929.*" />
+          <option name="PATTERN" value="java_1010.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,22 +443,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main2 (1)" />
       <item itemvalue="Application.CQueue" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Tomcat Server.chess" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="Tomcat Server.stu-dorm-sys" />
-      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CQueue" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -655,6 +655,9 @@
       <workItem from="1601872247267" duration="1180000" />
       <workItem from="1601983962137" duration="6639000" />
       <workItem from="1602150046623" duration="4945000" />
+      <workItem from="1602230923802" duration="628000" />
+      <workItem from="1602296946289" duration="2037000" />
+      <workItem from="1602329938264" duration="2207000" />
     </task>
     <servers />
   </component>
@@ -694,22 +697,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597922010816" />
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1602158353530">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1602331770347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602158353530" />
-    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1602158353530">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602331770347" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1602331770347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602158353530" />
-    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1602158353530">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602331770347" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1602331770347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602158353530" />
-    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1602158353530">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602331770347" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1602331770347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602158353530" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602331770347" />
     <state width="1493" height="201" key="GridCell.Tab.1.bottom" timestamp="1600426295807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -758,10 +761,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599122469286" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1602151164783">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1602329968377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602151164783" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602329968377" />
     <state x="485" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597922020552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
