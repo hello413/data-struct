@@ -143,26 +143,13 @@
       <command value="mvn tomcat7:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MJJ">
-    <configuration name="MJJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_1015.MJJ" />
-      <module name="practice1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_1015.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_1015.Main" />
+      <option name="MAIN_CLASS_NAME" value="java_1029.Main" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_1015.*" />
+          <option name="PATTERN" value="java_1029.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +158,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_1014.Main" />
+      <option name="MAIN_CLASS_NAME" value="java_1027.Main" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_1014.*" />
+          <option name="PATTERN" value="java_1027.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +170,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_1013.Main1" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_1029.Main3" />
       <module name="practice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_1013.*" />
+          <option name="PATTERN" value="java_1029.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_1027.Mains" />
+      <module name="practice1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_1027.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quiesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_1023.Quiesort" />
+      <module name="practice1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_1023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +215,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java_0815.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_1015.s" />
-      <module name="practice1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_1015.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,22 +443,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Quiesort" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Mains" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.s" />
-      <item itemvalue="Application.MJJ" />
+      <item itemvalue="Application.Main3" />
       <item itemvalue="Tomcat Server.chess" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="Tomcat Server.stu-dorm-sys" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MJJ" />
-        <item itemvalue="Application.s" />
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Mains" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Quiesort" />
       </list>
     </recent_temporary>
   </component>
@@ -664,6 +664,18 @@
       <workItem from="1602728538481" duration="4220000" />
       <workItem from="1602764658097" duration="2431000" />
       <workItem from="1602817413270" duration="746000" />
+      <workItem from="1602931223023" duration="1733000" />
+      <workItem from="1603019316339" duration="2238000" />
+      <workItem from="1603105227450" duration="595000" />
+      <workItem from="1603456666515" duration="4976000" />
+      <workItem from="1603541235626" duration="2903000" />
+      <workItem from="1603637009273" duration="687000" />
+      <workItem from="1603796863726" duration="3277000" />
+      <workItem from="1603854762249" duration="595000" />
+      <workItem from="1603960920396" duration="1093000" />
+      <workItem from="1604058468937" duration="1211000" />
+      <workItem from="1604059904606" duration="232000" />
+      <workItem from="1604113194165" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -687,38 +699,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="74" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1597919586680" />
-    <state x="592" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1594451968046">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="592" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1594451968046" />
-    <state x="557" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1594451721599">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="557" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1594451721599" />
-    <state x="550" y="107" key="ExecutionTargetDialog" timestamp="1594453487136">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="550" y="107" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1594453487136" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1597922010816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597922010816" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1602767289944">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1604149296898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602767289944" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1602767289944">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604149296898" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1604149296898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602767289944" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1602767289944">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604149296898" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1604149296898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602767289944" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1602767289944">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604149296898" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1604149296898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602767289944" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604149296898" />
     <state width="1493" height="201" key="GridCell.Tab.1.bottom" timestamp="1600426295807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -751,10 +751,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1597918950156" />
-    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1594453530093">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1594453530093" />
     <state x="349" y="150" key="IDE.errors.dialog" timestamp="1599470082106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -767,10 +763,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599122469286" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1602817410925">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1603854911968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602817410925" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603854911968" />
     <state x="485" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597922020552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
